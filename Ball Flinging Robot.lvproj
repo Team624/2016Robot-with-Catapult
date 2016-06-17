@@ -353,7 +353,6 @@
 			</Item>
 			<Item Name="navX Library v2.lvlib" Type="Library" URL="../navX.Library.v2/navX Library v2/navX Library v2.lvlib"/>
 			<Item Name="NI WPI Serial USB.lvlib" Type="Library" URL="../navX.Library.v2/NI WPI/NI WPI Serial USB.lvlib"/>
-			<Item Name="Shoot Mode.ctl" Type="VI" URL="../../../../Shooter Stuff/Shoot Mode.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Teh Dashboard" Type="EXE">
@@ -493,7 +492,6 @@ AddOutputFilter chunkFilter
 		<Item Name="Robot Code" Type="Folder" URL="../Robot Code">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Shoot Mode.ctl" Type="VI" URL="../../../../Shooter Stuff/Shoot Mode.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
