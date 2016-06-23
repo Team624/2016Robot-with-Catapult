@@ -1,9 +1,5 @@
 [My Computer]
-<<<<<<< HEAD
-My Computer = "10.65.160.57"
-=======
-My Computer = "10.65.160.48"
->>>>>>> 3e1ed0880473e0e986a21b2da634f2a19e69002e
+My Computer = "192.168.0.110"
 
 [Target]
 Target = "roboRIO-624-frc.local"
