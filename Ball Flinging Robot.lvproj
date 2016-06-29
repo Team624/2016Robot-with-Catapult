@@ -353,6 +353,7 @@
 			</Item>
 			<Item Name="navX Library v2.lvlib" Type="Library" URL="../navX.Library.v2/navX Library v2/navX Library v2.lvlib"/>
 			<Item Name="NI WPI Serial USB.lvlib" Type="Library" URL="../navX.Library.v2/NI WPI/NI WPI Serial USB.lvlib"/>
+			<Item Name="Shoot Modes Enum.ctl" Type="VI" URL="../Common Code/Shoot Modes Enum.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Teh Dashboard" Type="EXE">
@@ -367,20 +368,21 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Teh Dashboard</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/valer/Desktop/Robotics</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6DA88E40-4597-48FC-9712-A8479C5A5820}</Property>
-				<Property Name="Bld_version.build" Type="Int">30</Property>
+				<Property Name="Bld_version.build" Type="Int">32</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Teh Dashboard/Dashboard.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/valer/Desktop/Robotics/Dashboard.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Teh Dashboard/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/valer/Desktop/Robotics/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{20132950-5E00-4300-83E0-C4B82D76FBD5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{85A55D81-622A-46BB-BCFA-67A5B0DC4ADC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dashboard Code/Dashboard Main.vi</Property>
@@ -1195,8 +1197,11 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Shoot Modes Enum.ctl" Type="VI" URL="../Common Code/Shoot Modes Enum.ctl"/>
 			<Item Name="Shooter Loop.vi" Type="VI" URL="../Robot Code/Shooter/Shooter Loop.vi"/>
+			<Item Name="Shooter Presets.ctl" Type="VI" URL="../Common Code/Shooter Presets.ctl"/>
 			<Item Name="Shooter Ready Detection.vi" Type="VI" URL="../Robot Code/Shooter/Shooter Ready Detection.vi"/>
+			<Item Name="Shooter State Cluster.ctl" Type="VI" URL="../Common Code/Shooter State Cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
