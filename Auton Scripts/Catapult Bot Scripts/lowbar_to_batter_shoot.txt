@@ -1,0 +1,8 @@
+﻿//
+pidDrive maxTime=0 speed=.5 y=5 async=1 heading=0
+resetEncoders
+fast_pivot maxTime=0 speed=.5 heading=45
+resetEncoders
+pidDrive maxTime=0 speed=.5 y=5 async=1 heading=45
+resetEncoders
+catapult maxTime=0 shootMode=1 shoot=0
