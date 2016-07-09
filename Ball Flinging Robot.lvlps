@@ -1,5 +1,9 @@
 [ProjectWindow_Data]
+<<<<<<< HEAD
 ProjectExplorer.ClassicPosition[String] = "33,1,727,682"
+=======
+ProjectExplorer.ClassicPosition[String] = "25,2,726,1364"
+>>>>>>> 1ae1657110e0110c18480a22577c39bd9a326530
 
 [AB_Cache_{8C1C8770-D686-4931-835E-3A364C203F20}]
 Cache_Path[Path] Line0001 = "/C/Users/valer/AppData/Local/Temp/AB_Cache_{8C1C87"
