@@ -1219,7 +1219,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Shoot Modes Enum.ctl" Type="VI" URL="../Common Code/Shoot Modes Enum.ctl"/>
 			<Item Name="Shooter Loop.vi" Type="VI" URL="../Robot Code/Shooter/Shooter Loop.vi"/>
 			<Item Name="Shooter Ready Detection.vi" Type="VI" URL="../Robot Code/Shooter/Shooter Ready Detection.vi"/>
 		</Item>
