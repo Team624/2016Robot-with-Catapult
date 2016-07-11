@@ -1,0 +1,17 @@
+﻿set_intake mode=auto command=drop_low
+yaw_zero angle=0
+set_drive y=.6
+wait_for condition=past_y_dist distance=20
+set_drive y=.6 heading=9
+set_intake mode=auto command=idle
+wait_for condition=past_y_dist distance=15.5
+set_drive y=.6 heading=0
+wait_for condition=past_y_dist distance=17
+set_drive y=0
+fast_pivot heading=57 speed=.6
+resetEncoders
+set_drive y=.6 heading=57
+wait_for condition=past_y_dist distance=1.5
+set_drive y=0 heading=57
+wait maxTime=1000
+//shoot after this bro 
