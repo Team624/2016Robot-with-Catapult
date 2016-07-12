@@ -125,9 +125,11 @@
 	"id": 12,
 	"desc": "everything to do with the catapult",
 	"subs": [
+			{"name":"maxTime", "id":0,"desc":"wait duration (ms). (0 = forever)"},
 			{"name": "shootMode", "id":1,"desc": "set the mode of the shot (0=outer,1=batter)"},
 			{"name": "shoot", "id":2,"desc": "shoots catapult (0=no,1=yes)"},
 			{"name": "high_pressure", "id":12, "desc": "brings up the pressure for lowbar shot (0=no,1=yes)"},
+			{"name": "override_ir", "id":3, "desc": "overrides the ir (0=no,1=yes)"},
 		]
 	},
 	
