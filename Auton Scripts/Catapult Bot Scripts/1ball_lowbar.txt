@@ -1,29 +1,37 @@
-﻿set_intake mode=auto command=drop_low
-catapult override_ir=yes
+﻿catapult override_ir=no
 yaw_zero angle=0
 set_drive y=.5
-wait_for condition=past_y_dist distance=10
+wait_for condition=past_y_dist distance=1.5
+set_intake mode=auto command=drop_low 
+set_drive y=.5
+wait_for condition=past_y_dist distance=13
 set_drive y=.5 heading=9
-wait_for condition=past_y_dist distance=12
+wait_for condition=past_y_dist distance=15
 set_drive y=.4 heading=30
-wait_for condition=past_y_dist distance=20.5
+wait_for condition=past_y_dist distance=18
 set_drive y=0
-fast_pivot heading=57 speed=.6
+fast_pivot heading=56 speed=.6
 resetEncoders
 //set_drive y=.6 heading=57
 //wait_for condition=past_y_dist distance=.5
-set_drive y=0 heading=57
+set_drive y=0 heading=56
 wait maxTime=1000
 //shoot after this bro 
-catapult override_ir=no
 catapult shootMode=outer shoot=yes high_pressure=no maxTime=1000
 wait maxTime=1000
 resetEncoders
-set_drive y=-.4 heading=29
-wait_for condition=past_y_dist distance=-3.5
+set_drive y=-.4 heading=30
+wait_for condition=past_y_dist distance=-.5
 catapult override_ir=yes
-set_drive y=-.5 heading=9
-wait_for condition=past_y_dist distance=-9
 set_drive y=-.5 heading=0
-wait_for condition=past_y_dist distance=-22
+wait_for condition=past_y_dist distance=-2
+set_intake mode=auto command=load 
+set_intake mode=manual intake=yes 
+set_drive y=-.4 heading=0
+wait_for condition=past_y_dist distance=-7
+set_drive y=-.3 heading=0
+wait_for condition=past_y_dist distance=-13
+set_drive y=-.6 heading=-15
+wait_for condition=past_y_dist distance=-18
+catapult override_ir=no
 set_drive y=0
