@@ -1,0 +1,5 @@
+﻿set_drive y=.8
+wait_for condition=past_y_dist distance=15
+;catapult shootMode=outer shoot=yes high_pressure=no maxTime=1000
+;wait maxTime=1000
+set_drive y=0
