@@ -1,34 +1,30 @@
-catapult maxTime=0 shootMode=0 shoot=0 override_ir=0 high_pressure=0 
 yaw_zero angle=0 
 set_drive y=0.5 heading=0 
 wait_for maxTime=0 condition=0 distance=1.5 
-set_intake maxTime=0 command=0 intake=0 eject=0 override_intake=0 override_speed=0 override_eject=0 override_eject_speed=0 override_arm=0 arm_speed=0 override_angle=0 arm_angle=0 
+set_intake maxTime=0 command=0  
 set_drive y=0.5 heading=0 
 wait_for maxTime=0 condition=0 distance=13 
 set_drive y=0.5 heading=9 
 wait_for maxTime=0 condition=0 distance=15 
 set_drive y=0.4 heading=30 
-wait_for maxTime=0 condition=0 distance=18 
+wait_for maxTime=0 condition=0 distance=19
 set_drive y=0 heading=0 
 fast_pivot maxTime=0 speed=0.6 heading=56 
 resetEncoders 
 set_drive y=0 heading=56 
 wait maxTime=1000 
-catapult maxTime=1000 shootMode=0 shoot=1 override_ir=0 high_pressure=0 
+catapult maxTime=1500 shootMode=outer shoot=yes  
 wait maxTime=1000 
 resetEncoders 
 set_drive y=-0.4 heading=30 
-wait_for maxTime=0 condition=0 distance=-0.5 
-catapult maxTime=0 shootMode=0 shoot=0 override_ir=1 high_pressure=0 
+wait_for condition=0 distance=-0.5 
 set_drive y=-0.5 heading=0 
 wait_for maxTime=0 condition=0 distance=-2 
-set_intake maxTime=0 command=1 intake=0 eject=0 override_intake=0 override_speed=0 override_eject=0 override_eject_speed=0 override_arm=0 arm_speed=0 override_angle=0 arm_angle=0 
-set_intake maxTime=0 command=0 intake=1 eject=0 override_intake=0 override_speed=0 override_eject=0 override_eject_speed=0 override_arm=0 arm_speed=0 override_angle=0 arm_angle=0 
+set_intake maxTime=0 command=load
 set_drive y=-0.4 heading=0 
 wait_for maxTime=0 condition=0 distance=-7 
 set_drive y=-0.3 heading=0 
 wait_for maxTime=0 condition=0 distance=-13 
 set_drive y=-0.6 heading=-15 
 wait_for maxTime=0 condition=0 distance=-18 
-catapult maxTime=0 shootMode=0 shoot=0 override_ir=0 high_pressure=0 
 set_drive y=0 heading=0 
