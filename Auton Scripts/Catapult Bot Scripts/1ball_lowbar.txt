@@ -2,7 +2,7 @@
 yaw_zero angle=0
 set_drive y=.5
 wait_for condition=past_y_dist distance=1.5
-set_intake mode=auto command=idle
+set_intake mode=auto command=drop_low
 set_drive y=.5
 wait_for condition=past_y_dist distance=13
 set_drive y=.5 heading=9
@@ -17,8 +17,8 @@ resetEncoders
 set_drive y=0 heading=55
 wait maxTime=1000
 //shoot after this bro 
-catapult shootMode=outer shoot=yes high_pressure=no maxTime=1000
-wait maxTime=1000
+catapult shootMode=outer shoot=yes high_pressure=no maxTime=700
+wait maxTime=1500
 resetEncoders
 set_drive y=-.4 heading=30
 wait_for condition=past_y_dist distance=-.5
